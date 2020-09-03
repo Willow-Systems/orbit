@@ -1,0 +1,7 @@
+.navbar.navbar-dark .navbar-nav .nav-item.active > .nav-link {
+  background-color: inherit;
+}
+
+.nav-item.active {
+  border-bottom: 2px solid black;
+}

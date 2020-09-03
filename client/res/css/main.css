@@ -1,0 +1,174 @@
+body {
+  overflow-x: hidden;
+  background-color: #404040;
+}
+
+.navbar {
+  padding: 0px;
+  padding-left: 10px;
+}
+.navbar-brand, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+  color: black !important;
+}
+.nav-tabs {
+  padding: 10px;
+}
+
+.main {
+padding: 15px;
+display: inline-block;
+}
+
+/* Override colours */
+.bg-danger {
+  background-color: #69140e !important;
+}
+.bg-info {
+  background-color: #d58936 !important;
+}
+.bg-primary {
+  background-color: #707070 !important;
+}
+.primary-color {
+  background: rgb(255, 205, 63) !important;#
+}
+.black-text {
+  color: black;
+}
+.black-border-b {
+  border-bottom: 1px solid black !important;
+}
+.icon {
+  margin-top: 9px;
+  margin-left: 15px;
+  margin-right: 15px;
+  /* border: 1px dashed black; */
+  font-size: 20;
+  height: 20px;
+}
+.icon svg {
+  color: black;
+}
+
+/* Snippits */
+.mr {
+  padding-right: 30px;
+}
+.break {
+  margin-top: 60px;
+}
+.centerarrow {
+  width: 90% !important;
+  text-align: center;
+  margin: 10px;
+  color: white;
+}
+
+.webrequest {
+  width: 100%;
+  text-align: center;
+  border-radius: 2px;
+}
+
+a, a:hover {
+  text-decoration: none !important;
+  color: white;
+}
+
+.nav-link {
+  border-radius: 0px !important;
+}
+.tab-pane {
+  padding-top: 5px;
+  padding: 10px;
+}
+.card-body {
+  padding: 0px;
+}
+.card-header {
+  text-align: left;
+}
+
+
+
+
+
+
+/* Header */
+.header-icon {
+  max-height: 30px;
+}
+.icon {
+  max-height: 20px;
+}
+
+
+/* Albums */
+.album {
+  --album-size: 200px;
+  --subdiv-size: 50px;
+  --album-pad: 10px;
+  width: var(--album-size);
+  /* height: calc(var(--album-size) + var(--subdiv-size)); */
+  height: var(--album-size);
+  display: inline-block;
+  margin: var(--album-pad);
+}
+.album > img {
+  width: var(--album-size);
+  height: calc(var(--album-size));
+  object-fit: cover;
+  object-position: top;
+}
+.album-div {
+  width: var(--album-size);
+  height: var(--subdiv-size);
+  background-color: rgb(255,200,60);
+  opacity: 90%;
+  position: relative;
+  top:  calc(0px - var(--subdiv-size));
+  left: inherit;
+  padding-left: 10px;
+  color: black;
+  transition: background-color 2s linear, color 2s linear;
+
+}
+.album-div > .title {
+  font-weight: 500;
+  text-overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.album-div > .artist {
+  font-size: 0.8rem;
+  text-overflow: ellipsis;
+  white-space: nowrap; overflow: hidden;
+}
+
+.hidden {
+  opacity: 0%;
+}
+.fadeMe {
+  animation:fadeIn 1s linear;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+
+textarea, select, input, button { outline: none; }
+
+@media only screen and (max-width: 600px) {
+  .nomobile {
+    display: none;
+    visibility: hidden;
+  }
+}

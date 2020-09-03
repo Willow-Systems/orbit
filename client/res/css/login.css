@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(255,200,60);
+  font-family: Roboto,sans-serif;
+}
+
+
+.plant {
+  position: fixed;
+  top: 90%;
+  height: 10%;
+  width: auto;
+  left: 13%;
+}
+
+.row {
+  text-align: center;
+  align-items: center;
+}
+.login {
+  padding-top: 10%;
+  max-width: 33%;
+}
+.container {
+  padding: 20px;
+}
+.h3, .h5 {
+  font-weight: 300;
+}
+.logo {
+  max-width: 200px;
+  padding-bottom: 20px;
+}
+
+input {
+  border: 2px solid black;
+  color: white;
+}
+
+.left {
+  float: left;
+}
+
+.btn {
+  background-color: #4CDF78;
+  border: 3px solid black;
+}

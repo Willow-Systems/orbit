@@ -1,0 +1,104 @@
+<html>
+  <head>
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="http://127.0.0.1/orbit/res/mdb/css/all.css"> -->
+    <!-- Bootstrap core CSS -->
+    <link href="res/mdb/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="res/mdb/css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="res/css/main.css" rel="stylesheet">
+    <link href="res/css/bsoverride.css" rel="stylesheet">
+  </head>
+  <body>
+
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark primary-color">
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="#" id="orbit-logo">
+        <img class="header-icon" src="res/img/orbit.png"></img> Orbit
+      </a>
+
+      <!-- Collapse button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+      aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="basicExampleNav">
+
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Albums
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Artists</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Songs</a>
+        </li>
+
+        <!-- Dropdown -->
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Tools</a>
+          <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li> -->
+
+      </ul>
+      <!-- Links -->
+
+      <form class="form-inline">
+
+        <a href="#" onclick=""><img src="res/img/sort.png" class="icon"></img></a>
+        <a href="#" onclick="expandAll()"><img src="res/img/gear.png" class="icon"></img></a>
+
+        <div class="md-form my-0">
+          <input class="form-control mr-sm-2 black-text black-border-b" type="text" placeholder="Search" aria-label="Search">
+        </div>
+      </form>
+    </div>
+    <!-- Collapsible content -->
+  </nav>
+
+    <div class="container-flex mainarea break">
+      <div class="row">
+        <div class="col-12 mr" id="main">
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- FA -->
+    <script type="text/javascript" src="res/fa/js/all.min.js"></script>
+    <!-- JQuery -->
+    <script type="text/javascript" src="res/mdb/js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="res/mdb/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="res/mdb/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="res/mdb/js/mdb.min.js"></script>
+    <script type="text/javascript" src="res/js/vibrant.js"></script>
+    <script type="text/javascript" src="res/js/helpers.js"></script>
+    <script type="text/javascript" src="res/js/auth.js"></script>
+    <script type="text/javascript" src="res/js/api.js"></script>
+    <script>
+      init()
+    </script>
+
+</body>

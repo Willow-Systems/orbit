@@ -1,0 +1,3 @@
+function getUserToken() {
+  return null
+}

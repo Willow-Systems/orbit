@@ -1,0 +1,149 @@
+h2:before {
+content: "";
+width: 100%;
+margin: 12px;
+display: block;
+text-align: left;
+border-bottom: 1px solid #ffffff;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+/* CSS BUTTON */
+.button {
+  border: none;
+  color: white;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px 50px;
+  border-radius: 3px;
+  margin:5px;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  transition: text-shadow 0.3s ease;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+  border-bottom-width: 2px;
+}
+
+.button:hover {
+  text-shadow: 2px 2px 0px rgba(0,0,0,.3)
+}
+
+.red {
+  background-color: salmon;
+  border-color: rgb(150,120,120);
+}
+
+
+.green {
+  background-color: #4CDF78;
+  border-color: #53A574;
+}
+
+.blue {
+  background-color: #19698C;
+  border-color: #384B64;
+}
+
+.form {
+  display: block;
+  width: 300px;
+  background-color: #F3EDD3;
+  padding:  0;
+  text-align: center;
+}
+
+.form .form-title {
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.form label {
+  color: black;
+}
+
+.form input[type=text], .form input[type=password] {
+  display: block;
+}
+
+input[type=text], input[type=password] {
+  display: inline-block;
+  color: black;
+  padding: 10px;
+  /* width: 250px; */
+  box-sizing: border-box;
+  background-color: rgba(0,0,0,0.25);
+  border: 2px solid black;
+  border-radius: 2px;
+  margin: 10px auto;
+  transition:background-color 0.5s ease;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: rgba(0,0,0,0.15);
+  border: 2px solid black;
+  outline-color: transparent;
+ outline-style: none;
+}
+
+input[type=submit], input[type=button] {
+  color: white;
+  display: block;
+  width:100%;
+  margin-top:15px;
+  border: 2px solid black;
+  padding: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+input[type="checkbox"], input[type="radio"]{
+	background: rgba(191,185,169,.2);
+	height: 16px;
+	cursor: pointer;
+	border-radius: 3px;
+	width:16px;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	box-shadow: 0 1px 2px rgba(0,0,0,.44) inset;
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.44) inset;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.44) inset;
+  vertical-align: middle;
+}
+
+input[type="radio"] {
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
+input[type="checkbox"]:checked, input[type="radio"]:checked {
+  background: #5E5D58;
+  box-shadow: 0 1px 2px rgba(0,0,0,.44);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,.44);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.44);
+  }
+
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;
+}
+
+:-ms-input-placeholder {
+   color: white;
+}
