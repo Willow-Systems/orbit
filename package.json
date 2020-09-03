@@ -1,0 +1,18 @@
+{
+  "name": "orbit",
+  "version": "0.0.1",
+  "description": "A simple, pretty music manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js --test-install"
+  },
+  "author": "Will Murphy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "music-metadata": "^7.0.2",
+    "node-vibrant": "^3.1.5",
+    "yargs": "^15.4.1"
+  }
+}
